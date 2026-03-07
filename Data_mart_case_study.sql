@@ -1,6 +1,6 @@
  use case1;
  select * from weekly_sales limit 5;
- # data cleansing
+ # data cleaning
  create table clean_weekly_sales as
  select week_date,
  week(week_date) as week_number,
